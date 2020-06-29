@@ -21,4 +21,4 @@ if __name__ == "__main__":
 # TODO: 
 # Create a function that you can call within the test.py
 # Learn about the file writing and reading 
-# Store the command line inputs to a txt or .csv file with the columns holding the variables that you are taking in
+# Store the command line inputs to a txt or .csv file with the columns holding the variables that you are taking in 
