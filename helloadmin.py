@@ -52,3 +52,4 @@ def ordinal_numbers():
             print(number + "rd")
         else:
             print(number + "th")
+print("Test")
