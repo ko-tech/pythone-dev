@@ -26,3 +26,4 @@ print(places)
 
 print(len(places))
 
+
