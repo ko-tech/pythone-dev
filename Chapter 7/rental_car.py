@@ -121,17 +121,18 @@ def no_pastrami():
         finished_sandwiches.append(finished_sandwich)
 
 # 7-10: Dream Vacation - 
-dream_vacation = {}
-polling_active = True
+def dream_vacation():   
+    dream_vacation = {}
+    polling_active = True
 
-while polling_active:
-    name = input("\nWhat is your name? ")
-    location = input("Where is your dream vacation? ")
-    dream_vacation[name] = location
-    repeat = input("would you like to let another person respond? ")
-    if repeat == 'no':
-        polling_active = False
+    while polling_active:
+        name = input("\nWhat is your name? ")
+        location = input("Where is your dream vacation? ")
+        dream_vacation[name] = location
+        repeat = input("would you like to let another person respond? ")
+        if repeat == 'no':
+            polling_active = False
 
-print("\nSurvey Results:")
-for name, location in dream_vacation.items():
-    print("\n" + name.title() + " would like to go to " + location.title())
+    print("\nSurvey Results:")
+    for name, location in dream_vacation.items():
+        print("\n" + name.title() + " would like to go to " + location.title())
